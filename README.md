@@ -6,6 +6,8 @@ Na slijedećem [linku](https://nikovrdoljak.github.io/pzw202021/p4-rd+bootstrap/
 ## Opis stranice
 Prikazani web site je izrađen za nogometni klub Velebit iz Benkovca (u daljnjem tekstu: Klub), a sadrži **_početnu stranicu_**, stranicu s podacima o Klubu (**_o nama_**), te stranicu s **_izjavom o privatnosti_**.
 
+### Početna stranica
+
 **_Početna stranica_** ima navigacijsku traku, a koja sadrži logotip Kluba, 
 
 ![Logotip](https://upload.wikimedia.org/wikipedia/hr/f/f2/HNK_Velebit_Benkovac.gif)
@@ -22,6 +24,8 @@ a koje označavaju godinu osnutka Kluba. Pomicanjem prema dolje se na **_početn
 
 ```ⓒ 2020 HNK Velebit Benkovac```
 
+### O nama
+
 Stranica **_o nama_** sadrži navigacijsku traku s logotipom Kluba, 
 
 ![Logotip](https://upload.wikimedia.org/wikipedia/hr/f/f2/HNK_Velebit_Benkovac.gif)
@@ -33,6 +37,8 @@ a koji je ujedno i poveznica na **_početnu stranicu_**, te sadrži i poveznicu 
 Na sredini stranice **_o nama_** se nalazi carousel element s četiri slide-a, koji sadrže tekst s podacima o Klubu, a koje je moguće izmjenjivati po želji. Na dnu stranice se nalazi footer element s tekstom.
 
 ```ⓒ 2020 HNK Velebit Benkovac```
+
+### Izjava o privatnosti
 
 Stranica **_izjava o privatnosti_** sadrži navigacijsku traku s logotipom Kluba, 
 
