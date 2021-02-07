@@ -1,0 +1,58 @@
+{% extends 'baza.html' %}
+
+{% block content %}
+
+<div class="page-izjava">
+
+    <div class="container ">
+
+        <div id="carouselContent" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner slide" role="listbox">
+
+                <div class="carousel-item active text-center p-4">
+                    
+                    <p>
+                        Zaštita vaših podataka
+                        Kako bismo zaštitili osobne podatke koje šaljete preko ove web stranice, koristimo fizičke, tehničke i organizacijske
+                        mjere sigurnosti. Neprestano nadograđujemo i testiramo našu sigurnosnu tehnologiju. Ograničavamo pristup Vašim osobnim
+                        podacima samo onim zaposlenicima koji trebaju znati te informacije kako bi Vam pružili neke koristi ili usluge. Osim
+                        toga, educiramo naše zaposlenike o važnosti povjerljivosti podataka te čuvanju privatnosti i zaštiti Vaših podataka.
+                    </p>
+
+                    <p>
+                        Korištenjem ove web stranice dajete privolu na ovu politiku privatnosti.
+                    </p>
+
+                    <p>
+                        U bilo kojem trenutku možete poslati pritužbu nadzornom tijelu u vezi našeg skupljanja i obrade Vaših osobnih podataka.
+                        U Republici Hrvatskoj pritužbu možete podnijeti Agenciji za zaštitu osobnih podatka (AZOP).
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br><br><br>
+
+        <div class="div-center">
+
+            <a class="btn btn-outline-secondary" href="{{ url_for('novosti') }}" role="button">Newsletter</a>
+        
+        </div>
+        
+    </div>
+
+    <div class="footer">
+
+        <p>
+            ⓒ 2020 HNK Velebit Benkovac
+        </p>
+
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends 'baza.html' %}
+
+{% block content %}
+
+<div class="page-izjava">
+
+    <div class="container ">
+
+        <div id="carouselContent" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner slide" role="listbox">
+
+                <div class="carousel-item active text-center p-4">
+                    
+                    <h1>
+                        Prijavite se na naš Newsletter
+                    </h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br><br><br>
+
+        <form action="" method="POST">
+
+            <p>
+                {{form.email.label}}
+                <br>
+                {{form.email(size=30)}}
+            </p>
+    
+            <p>
+                {{form.prijava()}}
+            </p>
+    
+        </form>
+        
+    </div>
+
+    <div class="footer">
+
+        <p>
+            ⓒ 2020 HNK Velebit Benkovac
+        </p>
+
+    </div>
+
+</div>
+
+{% endblock %}
